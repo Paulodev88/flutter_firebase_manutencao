@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "897250032619",
+    "project_id": "dados-manutencao",
+    "storage_bucket": "dados-manutencao.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897250032619:android:6e300fba626db04cb437ae",
+        "android_client_info": {
+          "package_name": "com.codeforlife.manutencao_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897250032619-kfcusah0j7r8sldmpku8r7jj1511dkcs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codeforlife.manutencao_firebase",
+            "certificate_hash": "c79e735d85951d35952aa7769c1341433f602d45"
+          }
+        },
+        {
+          "client_id": "897250032619-feu72hj6gk9bvc2cg0m33ntmtjat4c8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMHqB17eEmiSvNl6Hx1Tuj2sdpbgShYCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897250032619-feu72hj6gk9bvc2cg0m33ntmtjat4c8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
