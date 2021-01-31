@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:manutencao_firebase/tiles/drawer_tile.dart';
 
 class CustomDrawer extends StatelessWidget {
+  final PageController pageController;
+  CustomDrawer(this.pageController);
+
   @override
   Widget build(BuildContext context) {
     Widget _buildDrawerBack() => Container(
@@ -63,10 +66,13 @@ class CustomDrawer extends StatelessWidget {
                 ),
               ),
               Divider(),
-              DrawerTile(Icons.home, "Início"),
-              DrawerTile(Icons.list, "Manutenções"),
-              DrawerTile(Icons.search, "Busca"),
-              DrawerTile(Icons.playlist_add_check, "Minhas Manutenções"),
+              DrawerTile(Icons.home, "Início", pageController, 0),
+              DrawerTile(Icons.list, "Manutenções", pageController, 1),
+              DrawerTile(
+                  Icons.add, "Adicionar uma Manutenção", pageController, 2),
+              DrawerTile(Icons.search, "Buscar", pageController, 3),
+              DrawerTile(Icons.playlist_add_check, "Minhas Manutenções",
+                  pageController, 4),
             ],
           )
         ],
